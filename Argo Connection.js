@@ -1,15 +1,15 @@
 const ArgoAPI = require('argoapi')
 
-ArgoAPI.login('school code','username','password')
+ArgoAPI.login('SS16589','schiavinottodavide','passwordpassword)', 'dadonerd')
 
     .then(message => {
 
-    //successfull message
+    console.log("Funziona");//successfull message
 
     })
 
     .catch(err => {
 
-        //error message
+       console.log("Non funziona");//error message
 
     })
